@@ -1,14 +1,16 @@
 
 /*=============================================
+=            Body font family                  =
+=============================================*/
+$body-font-family: var(--dse-body-font-family, $playfair) !default;
+
+/*=============================================
 =            Body Text Sizes           =
 =============================================*/
 
 $body-font-size: var(--dse-body-font-size, $fs-sm) !default;
 $body-font-weight: var(--dse-body-font-weight, $fs-normal) !default;
 
-
-/*=====  End of Body Text Size  ======*/
- 
 
 /*=============================================
 =            Heading Font Sizes           =
