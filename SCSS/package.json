@@ -14,11 +14,13 @@
   },
   "scripts": {
     "lint": "stylelint './**/*scss' --custom-syntax postcss-scss ",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "build": "node src/scripts/build.js"
   },
   "devDependencies": {
     "husky": "^8.0.3",
-    "lint-staged": "^14.0.1"
+    "lint-staged": "^14.0.1",
+    "node-sass": "^9.0.0"
   },
   "husky": {
     "hooks": {
