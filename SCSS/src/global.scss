@@ -1,0 +1,3 @@
+@import "./foundation/all"; // import all scss in foundation
+@import "./base/reset" ; // reset all style across browser using normalize.scss package
+@import "./base/root"; // after reset, config root css for your page
